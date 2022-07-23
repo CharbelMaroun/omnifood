@@ -128,10 +128,12 @@
 
   .btn-mobile-nav {
     display: block;
+    z-index: 1;
   }
 
   .main-nav {
-    background: rgba(255, 255, 255, 0.97);
+    background: rgba(255, 255, 255, 0.75);
+    backdrop-filter: blur(10px);
     position: fixed;
     top: 0;
     left: 0;
@@ -143,6 +145,7 @@
     align-items: center;
     justify-content: center;
     transition: all 0.5s ease-in;
+    z-index: 1;
 
     /* display: none; */
 
